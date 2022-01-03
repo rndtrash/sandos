@@ -7,8 +7,6 @@ namespace SandOS
 		public override void Respawn()
 		{
 			Camera = new FixedCamera();
-
-			base.Respawn();
 		}
 
 		/// <summary>
